@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b13aa6823dd7d2df99e089628dbba26b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b13aa6823dd7d2df99e089628dbba26b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b13aa6823dd7d2df99e089628dbba26b = L.map(
+                "map_b13aa6823dd7d2df99e089628dbba26b",
+                {
+                    center: [52.37907691666666, 4.903787222222223],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_292e2ea0f64552c5f33e5f6b40ca4ea3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_292e2ea0f64552c5f33e5f6b40ca4ea3.addTo(map_b13aa6823dd7d2df99e089628dbba26b);
+        
+    
+            var marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_32707d865bbf826cdeee59850370a030 = L.marker(
+                [52.372634, 4.892071],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_223c4120578d5760ae7e35018b63abec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47bc145bc784d5782e3ed9efccb88c05 = $(`<div id="html_47bc145bc784d5782e3ed9efccb88c05" style="width: 100.0%; height: 100.0%;">CMSA-GAKH-01 — Kalverstraat t.h.v. 1</div>`)[0];
+                popup_223c4120578d5760ae7e35018b63abec.setContent(html_47bc145bc784d5782e3ed9efccb88c05);
+            
+        
+
+        marker_32707d865bbf826cdeee59850370a030.bindPopup(popup_223c4120578d5760ae7e35018b63abec)
+        ;
+
+        
+    
+    
+            var marker_c2d19761b251c3ce0653dce386c2eb26 = L.marker(
+                [52.374616, 4.89983],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_ca037fadae60d4c4002f20d42abec34e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c5b4a978ad3adb658feaf599001e62c = $(`<div id="html_6c5b4a978ad3adb658feaf599001e62c" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-11 — Korte Niezel</div>`)[0];
+                popup_ca037fadae60d4c4002f20d42abec34e.setContent(html_6c5b4a978ad3adb658feaf599001e62c);
+            
+        
+
+        marker_c2d19761b251c3ce0653dce386c2eb26.bindPopup(popup_ca037fadae60d4c4002f20d42abec34e)
+        ;
+
+        
+    
+    
+            var marker_3c96a3c9ab3df48670553c57eca33290 = L.marker(
+                [52.37386, 4.89869],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_2cf996e0c9287c7a54db0ca408dbc0d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75f4e8caf94aca86df96b05e1fbbff45 = $(`<div id="html_75f4e8caf94aca86df96b05e1fbbff45" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-12 — Oudekennissteeg</div>`)[0];
+                popup_2cf996e0c9287c7a54db0ca408dbc0d5.setContent(html_75f4e8caf94aca86df96b05e1fbbff45);
+            
+        
+
+        marker_3c96a3c9ab3df48670553c57eca33290.bindPopup(popup_2cf996e0c9287c7a54db0ca408dbc0d5)
+        ;
+
+        
+    
+    
+            var marker_146109ba0e83b02695fcafc2994b8b17 = L.marker(
+                [52.372439, 4.897689],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_75dd8e882602918df5bc13cb8ec76f1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f80d5e9924081e144eb471559d0bdb40 = $(`<div id="html_f80d5e9924081e144eb471559d0bdb40" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-13 — Stoofsteeg</div>`)[0];
+                popup_75dd8e882602918df5bc13cb8ec76f1d.setContent(html_f80d5e9924081e144eb471559d0bdb40);
+            
+        
+
+        marker_146109ba0e83b02695fcafc2994b8b17.bindPopup(popup_75dd8e882602918df5bc13cb8ec76f1d)
+        ;
+
+        
+    
+    
+            var marker_625dd4301e35617633cd0404ba169a7a = L.marker(
+                [52.373538, 4.898166],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_3a4221fa1b4568d96f2be12b53d09168 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbadf4ff0149cf1c8197a83f23032e39 = $(`<div id="html_fbadf4ff0149cf1c8197a83f23032e39" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-14 — Oudezijds Voorburgwal t.h.v. 91</div>`)[0];
+                popup_3a4221fa1b4568d96f2be12b53d09168.setContent(html_fbadf4ff0149cf1c8197a83f23032e39);
+            
+        
+
+        marker_625dd4301e35617633cd0404ba169a7a.bindPopup(popup_3a4221fa1b4568d96f2be12b53d09168)
+        ;
+
+        
+    
+    
+            var marker_d228be948c4eee8d2cd164e46a2c232a = L.marker(
+                [52.372916, 4.898207],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_7011847b2ee1f1875104d655306884fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee6bdcf86a3f87d96a58924f6c4cb9a8 = $(`<div id="html_ee6bdcf86a3f87d96a58924f6c4cb9a8" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-15 — Oudezijds Achterburgwal t.h.v. 86</div>`)[0];
+                popup_7011847b2ee1f1875104d655306884fe.setContent(html_ee6bdcf86a3f87d96a58924f6c4cb9a8);
+            
+        
+
+        marker_d228be948c4eee8d2cd164e46a2c232a.bindPopup(popup_7011847b2ee1f1875104d655306884fe)
+        ;
+
+        
+    
+    
+            var marker_a3059e42d22d92ff6a75f7862a0b4c31 = L.marker(
+                [52.372628, 4.898233],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_cc965ae73927f35df61c24777e2bf18c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c00355a479a018063ba5843bc9a672aa = $(`<div id="html_c00355a479a018063ba5843bc9a672aa" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-16 — Oudezijds Achterburgwal t.h.v. 91</div>`)[0];
+                popup_cc965ae73927f35df61c24777e2bf18c.setContent(html_c00355a479a018063ba5843bc9a672aa);
+            
+        
+
+        marker_a3059e42d22d92ff6a75f7862a0b4c31.bindPopup(popup_cc965ae73927f35df61c24777e2bf18c)
+        ;
+
+        
+    
+    
+            var marker_32a875839e6788153b330c010515bdec = L.marker(
+                [52.372782, 4.896649],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_9b7754f84a05da41f525266c2ae7735c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57d0894286c1f0bb14f6fd153e00c73f = $(`<div id="html_57d0894286c1f0bb14f6fd153e00c73f" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-17 — Oudezijds Voorburgwal t.h.v. 206</div>`)[0];
+                popup_9b7754f84a05da41f525266c2ae7735c.setContent(html_57d0894286c1f0bb14f6fd153e00c73f);
+            
+        
+
+        marker_32a875839e6788153b330c010515bdec.bindPopup(popup_9b7754f84a05da41f525266c2ae7735c)
+        ;
+
+        
+    
+    
+            var marker_b4a120a61c228d254fafffcb501c04ed = L.marker(
+                [52.373587, 4.899815],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_22f39651b57daf4488416834af0d5d0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_353abd968e440d5406d210791a522fb7 = $(`<div id="html_353abd968e440d5406d210791a522fb7" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-19 — Molensteeg</div>`)[0];
+                popup_22f39651b57daf4488416834af0d5d0d.setContent(html_353abd968e440d5406d210791a522fb7);
+            
+        
+
+        marker_b4a120a61c228d254fafffcb501c04ed.bindPopup(popup_22f39651b57daf4488416834af0d5d0d)
+        ;
+
+        
+    
+    
+            var marker_51cc23db2c1bf53d44dc79c07880b9f4 = L.marker(
+                [52.37535, 4.89748],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_59cd2461db6e25d04e01da5dab1dd5d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_003cfa49ce5c2ef5c57462d594abf8c7 = $(`<div id="html_003cfa49ce5c2ef5c57462d594abf8c7" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-20 — Oudebrugsteeg </div>`)[0];
+                popup_59cd2461db6e25d04e01da5dab1dd5d3.setContent(html_003cfa49ce5c2ef5c57462d594abf8c7);
+            
+        
+
+        marker_51cc23db2c1bf53d44dc79c07880b9f4.bindPopup(popup_59cd2461db6e25d04e01da5dab1dd5d3)
+        ;
+
+        
+    
+    
+            var marker_46fc17d74559a43aefbf25952ec9233c = L.marker(
+                [52.37193, 4.8956],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_dc71ec9a4404255a1051ab817b867dd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36c0c2d59203ceef3f9b21a607564880 = $(`<div id="html_36c0c2d59203ceef3f9b21a607564880" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-21 — Damstraat</div>`)[0];
+                popup_dc71ec9a4404255a1051ab817b867dd6.setContent(html_36c0c2d59203ceef3f9b21a607564880);
+            
+        
+
+        marker_46fc17d74559a43aefbf25952ec9233c.bindPopup(popup_dc71ec9a4404255a1051ab817b867dd6)
+        ;
+
+        
+    
+    
+            var marker_888c19d8dbc3a3f693e1d8152324b98c = L.marker(
+                [52.372764, 4.899829],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_12957ad7654206be1ade81ae2490e020 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d54fb0f24ef4ebda171ac8d75100ed5 = $(`<div id="html_5d54fb0f24ef4ebda171ac8d75100ed5" style="width: 100.0%; height: 100.0%;">CMSA-GAWW-23 — Bloedstraat</div>`)[0];
+                popup_12957ad7654206be1ade81ae2490e020.setContent(html_5d54fb0f24ef4ebda171ac8d75100ed5);
+            
+        
+
+        marker_888c19d8dbc3a3f693e1d8152324b98c.bindPopup(popup_12957ad7654206be1ade81ae2490e020)
+        ;
+
+        
+    
+    
+            var marker_f52d0221193602893725779df61a7da8 = L.marker(
+                [52.377027, 4.898059],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_860111d324202f3168aa231c561c1842 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f8b33994d3d430d633644e36eb94137 = $(`<div id="html_8f8b33994d3d430d633644e36eb94137" style="width: 100.0%; height: 100.0%;">GACM-04 — Damrak 1-5</div>`)[0];
+                popup_860111d324202f3168aa231c561c1842.setContent(html_8f8b33994d3d430d633644e36eb94137);
+            
+        
+
+        marker_f52d0221193602893725779df61a7da8.bindPopup(popup_860111d324202f3168aa231c561c1842)
+        ;
+
+        
+    
+    
+            var marker_b7e62b0316fcacff4263e12b3bdafd07 = L.marker(
+                [52.380686, 4.899041],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_c9f8eb516e14c62d061ea0c104e354b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8a6b271cf76d0d6c0cd5674349aa790 = $(`<div id="html_c8a6b271cf76d0d6c0cd5674349aa790" style="width: 100.0%; height: 100.0%;">GVCV-01 — CS - ri. NDSM</div>`)[0];
+                popup_c9f8eb516e14c62d061ea0c104e354b2.setContent(html_c8a6b271cf76d0d6c0cd5674349aa790);
+            
+        
+
+        marker_b7e62b0316fcacff4263e12b3bdafd07.bindPopup(popup_c9f8eb516e14c62d061ea0c104e354b2)
+        ;
+
+        
+    
+    
+            var marker_3f0feb36b943218b696ca7be404af412 = L.marker(
+                [52.380566, 4.89936],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_8032cbbc871041d183131e84f1b9ebfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d4fbf31b70f54c820d7a449b1ec4074 = $(`<div id="html_5d4fbf31b70f54c820d7a449b1ec4074" style="width: 100.0%; height: 100.0%;">GVCV-03 — CS - ri. Buiksloterweg (West)</div>`)[0];
+                popup_8032cbbc871041d183131e84f1b9ebfa.setContent(html_5d4fbf31b70f54c820d7a449b1ec4074);
+            
+        
+
+        marker_3f0feb36b943218b696ca7be404af412.bindPopup(popup_8032cbbc871041d183131e84f1b9ebfa)
+        ;
+
+        
+    
+    
+            var marker_8682a5ba0ede4c5cf432eb5b42918b4c = L.marker(
+                [52.380516, 4.899524],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_906e57b3e280e6e074d4781157c3fcc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a9c07cf23a3528fb01128cb37b7a435 = $(`<div id="html_1a9c07cf23a3528fb01128cb37b7a435" style="width: 100.0%; height: 100.0%;">GVCV-04 — CS - ri. Buiksloterweg (Oost)</div>`)[0];
+                popup_906e57b3e280e6e074d4781157c3fcc6.setContent(html_1a9c07cf23a3528fb01128cb37b7a435);
+            
+        
+
+        marker_8682a5ba0ede4c5cf432eb5b42918b4c.bindPopup(popup_906e57b3e280e6e074d4781157c3fcc6)
+        ;
+
+        
+    
+    
+            var marker_73c4cffbfe1fd8588f7faf5a90c2c62c = L.marker(
+                [52.378526, 4.905811],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_bd8fbb32d479f12b0565d80909700081 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_267d1070881f4b77e20e80f9eaf447cf = $(`<div id="html_267d1070881f4b77e20e80f9eaf447cf" style="width: 100.0%; height: 100.0%;">GVCV-05-A — CS - ri. IJplein (West)</div>`)[0];
+                popup_bd8fbb32d479f12b0565d80909700081.setContent(html_267d1070881f4b77e20e80f9eaf447cf);
+            
+        
+
+        marker_73c4cffbfe1fd8588f7faf5a90c2c62c.bindPopup(popup_bd8fbb32d479f12b0565d80909700081)
+        ;
+
+        
+    
+    
+            var marker_ca08edd8d71266a432d63af3ab2ae64f = L.marker(
+                [52.378526, 4.905811],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_5af6b819227714f43703dea1c146e800 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_083c0f5085e500a74c3aa3d119f362f5 = $(`<div id="html_083c0f5085e500a74c3aa3d119f362f5" style="width: 100.0%; height: 100.0%;">GVCV-05-B — CS - ri. IJplein (Oost)</div>`)[0];
+                popup_5af6b819227714f43703dea1c146e800.setContent(html_083c0f5085e500a74c3aa3d119f362f5);
+            
+        
+
+        marker_ca08edd8d71266a432d63af3ab2ae64f.bindPopup(popup_5af6b819227714f43703dea1c146e800)
+        ;
+
+        
+    
+    
+            var marker_0e8c484b07fc7f1e148dc057b84644cc = L.marker(
+                [52.378101, 4.937281],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_629a1ddaa2d33b16ae7cf6da74eb1892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_159459b869702ae98583fdd34b2a10b6 = $(`<div id="html_159459b869702ae98583fdd34b2a10b6" style="width: 100.0%; height: 100.0%;">GVCV-06 — Azartplein</div>`)[0];
+                popup_629a1ddaa2d33b16ae7cf6da74eb1892.setContent(html_159459b869702ae98583fdd34b2a10b6);
+            
+        
+
+        marker_0e8c484b07fc7f1e148dc057b84644cc.bindPopup(popup_629a1ddaa2d33b16ae7cf6da74eb1892)
+        ;
+
+        
+    
+    
+            var marker_ff86e558b5f775efccdd765824c20c44 = L.marker(
+                [52.392143, 4.885861],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_f12d0d9ae7ce88fdba43a2c358004e81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9002462019f79c498c2ac5220268ec6 = $(`<div id="html_b9002462019f79c498c2ac5220268ec6" style="width: 100.0%; height: 100.0%;">GVCV-07 — Pontsteiger N (ri. NDSM)</div>`)[0];
+                popup_f12d0d9ae7ce88fdba43a2c358004e81.setContent(html_b9002462019f79c498c2ac5220268ec6);
+            
+        
+
+        marker_ff86e558b5f775efccdd765824c20c44.bindPopup(popup_f12d0d9ae7ce88fdba43a2c358004e81)
+        ;
+
+        
+    
+    
+            var marker_058fc16e504206762575bd5f134cfb00 = L.marker(
+                [52.392029, 4.886005],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_71c44246958bdeec98f014df846403bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c1015010bef5f5a6ef584431abf139e = $(`<div id="html_2c1015010bef5f5a6ef584431abf139e" style="width: 100.0%; height: 100.0%;">GVCV-08 — Pontsteiger Z (ri. Distelweg)</div>`)[0];
+                popup_71c44246958bdeec98f014df846403bd.setContent(html_2c1015010bef5f5a6ef584431abf139e);
+            
+        
+
+        marker_058fc16e504206762575bd5f134cfb00.bindPopup(popup_71c44246958bdeec98f014df846403bd)
+        ;
+
+        
+    
+    
+            var marker_b30f15df801caf942d91eb0c492cf706 = L.marker(
+                [52.374414, 4.949579],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_4aca84d75647814744a73c29362d3b76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90db6ede399affbcdb0ad4a4601a8b84 = $(`<div id="html_90db6ede399affbcdb0ad4a4601a8b84" style="width: 100.0%; height: 100.0%;">GVCV-09 — Zeeburg</div>`)[0];
+                popup_4aca84d75647814744a73c29362d3b76.setContent(html_90db6ede399affbcdb0ad4a4601a8b84);
+            
+        
+
+        marker_b30f15df801caf942d91eb0c492cf706.bindPopup(popup_4aca84d75647814744a73c29362d3b76)
+        ;
+
+        
+    
+    
+            var marker_330946a1128e47988c32bd37661d2fd9 = L.marker(
+                [52.40106, 4.891368],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_fca10c129791d17d82c4026ee8392a93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29f7c3550e82877b6929e89b6babdde5 = $(`<div id="html_29f7c3550e82877b6929e89b6babdde5" style="width: 100.0%; height: 100.0%;">GVCV-11 — NDSMkade</div>`)[0];
+                popup_fca10c129791d17d82c4026ee8392a93.setContent(html_29f7c3550e82877b6929e89b6babdde5);
+            
+        
+
+        marker_330946a1128e47988c32bd37661d2fd9.bindPopup(popup_fca10c129791d17d82c4026ee8392a93)
+        ;
+
+        
+    
+    
+            var marker_8ff75898bcdae87cd40bcc558ac081d6 = L.marker(
+                [52.382352, 4.903016],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_fba85b5de5373f1c16f085b44577d6cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71c4e2860c033f99b0c86b5f9fba6d67 = $(`<div id="html_71c4e2860c033f99b0c86b5f9fba6d67" style="width: 100.0%; height: 100.0%;">GVCV-13 — Buiksloterweg</div>`)[0];
+                popup_fba85b5de5373f1c16f085b44577d6cc.setContent(html_71c4e2860c033f99b0c86b5f9fba6d67);
+            
+        
+
+        marker_8ff75898bcdae87cd40bcc558ac081d6.bindPopup(popup_fba85b5de5373f1c16f085b44577d6cc)
+        ;
+
+        
+    
+    
+            var marker_b3064a6434f638de723275cdc6f7329a = L.marker(
+                [52.382169, 4.903385],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_15cedb67459e8f70cc13040bb831cf0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dfb3f83f66602cd70cdfd6886ba81ec = $(`<div id="html_5dfb3f83f66602cd70cdfd6886ba81ec" style="width: 100.0%; height: 100.0%;">GVCV-14 — Buiksloterweg</div>`)[0];
+                popup_15cedb67459e8f70cc13040bb831cf0a.setContent(html_5dfb3f83f66602cd70cdfd6886ba81ec);
+            
+        
+
+        marker_b3064a6434f638de723275cdc6f7329a.bindPopup(popup_15cedb67459e8f70cc13040bb831cf0a)
+        ;
+
+        
+    
+    
+            var marker_f02fbdde4475a48434f077e741337725 = L.marker(
+                [52.37802, 4.93715],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_5f969a0bee563eeebfe4b5038184f7a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8866236138bc1d2e960b547ad6ee3485 = $(`<div id="html_8866236138bc1d2e960b547ad6ee3485" style="width: 100.0%; height: 100.0%;">GASA-06 — Azartplein B</div>`)[0];
+                popup_5f969a0bee563eeebfe4b5038184f7a3.setContent(html_8866236138bc1d2e960b547ad6ee3485);
+            
+        
+
+        marker_f02fbdde4475a48434f077e741337725.bindPopup(popup_5f969a0bee563eeebfe4b5038184f7a3)
+        ;
+
+        
+    
+    
+            var marker_04bd25f84f04d234e8b8822d56dcd7df = L.marker(
+                [52.38045, 4.90031],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_e89446d6ed5917b5040810491b383851 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7720db86990b9b116ff2576fa81a5c0e = $(`<div id="html_7720db86990b9b116ff2576fa81a5c0e" style="width: 100.0%; height: 100.0%;">GASA-01-A1 — IJBoulevardA1</div>`)[0];
+                popup_e89446d6ed5917b5040810491b383851.setContent(html_7720db86990b9b116ff2576fa81a5c0e);
+            
+        
+
+        marker_04bd25f84f04d234e8b8822d56dcd7df.bindPopup(popup_e89446d6ed5917b5040810491b383851)
+        ;
+
+        
+    
+    
+            var marker_a598d3642bef997c016b8628c04e7d7e = L.marker(
+                [52.38042, 4.90028],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_49a93e0fbd7fa4415d09a0c320fa2d46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1b666de3d815d5f1415f8a833d25fcc = $(`<div id="html_e1b666de3d815d5f1415f8a833d25fcc" style="width: 100.0%; height: 100.0%;">GASA-01-A2 — IJBoulevardA2</div>`)[0];
+                popup_49a93e0fbd7fa4415d09a0c320fa2d46.setContent(html_e1b666de3d815d5f1415f8a833d25fcc);
+            
+        
+
+        marker_a598d3642bef997c016b8628c04e7d7e.bindPopup(popup_49a93e0fbd7fa4415d09a0c320fa2d46)
+        ;
+
+        
+    
+    
+            var marker_4a2c75e8d871d3f7c96e75d28ff71671 = L.marker(
+                [52.38034, 4.89992],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_99a203ad6fa5f53bf9a1bea8ee32dac9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b68f3673b8c66ecc2151ef78191d657 = $(`<div id="html_2b68f3673b8c66ecc2151ef78191d657" style="width: 100.0%; height: 100.0%;">GASA-01-B — IJBoulevardB</div>`)[0];
+                popup_99a203ad6fa5f53bf9a1bea8ee32dac9.setContent(html_2b68f3673b8c66ecc2151ef78191d657);
+            
+        
+
+        marker_4a2c75e8d871d3f7c96e75d28ff71671.bindPopup(popup_99a203ad6fa5f53bf9a1bea8ee32dac9)
+        ;
+
+        
+    
+    
+            var marker_08c32a6060e02d76b2a2b51c82e1b1a0 = L.marker(
+                [52.38028, 4.89985],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_da8ace6fbc67df2c9ac769a75b185ee3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02210c87f7140e0b496be0ffef935ada = $(`<div id="html_02210c87f7140e0b496be0ffef935ada" style="width: 100.0%; height: 100.0%;">GASA-01-C — IJBoulevardC</div>`)[0];
+                popup_da8ace6fbc67df2c9ac769a75b185ee3.setContent(html_02210c87f7140e0b496be0ffef935ada);
+            
+        
+
+        marker_08c32a6060e02d76b2a2b51c82e1b1a0.bindPopup(popup_da8ace6fbc67df2c9ac769a75b185ee3)
+        ;
+
+        
+    
+    
+            var marker_a2460cee8936d372533c08a7c16be1ee = L.marker(
+                [52.37864, 4.90472],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_bd2f5598570c6fc819db98d1705e2bfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f19355807b85361b22a8a8cf30233d2 = $(`<div id="html_4f19355807b85361b22a8a8cf30233d2" style="width: 100.0%; height: 100.0%;">GASA-02-01 — BrugOostertoegang1</div>`)[0];
+                popup_bd2f5598570c6fc819db98d1705e2bfc.setContent(html_4f19355807b85361b22a8a8cf30233d2);
+            
+        
+
+        marker_a2460cee8936d372533c08a7c16be1ee.bindPopup(popup_bd2f5598570c6fc819db98d1705e2bfc)
+        ;
+
+        
+    
+    
+            var marker_8b28aecb4bce9429debccb41bb1cfeda = L.marker(
+                [52.37858, 4.90466],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_c8e156541339a0a579a852da4619f256 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5c3d3f8e864d8fc5bcf47d39a4d3ba7 = $(`<div id="html_d5c3d3f8e864d8fc5bcf47d39a4d3ba7" style="width: 100.0%; height: 100.0%;">GASA-02-02 — BrugOostertoegang2</div>`)[0];
+                popup_c8e156541339a0a579a852da4619f256.setContent(html_d5c3d3f8e864d8fc5bcf47d39a4d3ba7);
+            
+        
+
+        marker_8b28aecb4bce9429debccb41bb1cfeda.bindPopup(popup_c8e156541339a0a579a852da4619f256)
+        ;
+
+        
+    
+    
+            var marker_90b12aa8b359bf5564457d764c794930 = L.marker(
+                [52.37762, 4.91101],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_5f966f28d28028b93f8a8beae8f06822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41c8f05b9b8ff57c03e60fb4a10d9aca = $(`<div id="html_41c8f05b9b8ff57c03e60fb4a10d9aca" style="width: 100.0%; height: 100.0%;">GASA-03 — Oosterdoksbrug</div>`)[0];
+                popup_5f966f28d28028b93f8a8beae8f06822.setContent(html_41c8f05b9b8ff57c03e60fb4a10d9aca);
+            
+        
+
+        marker_90b12aa8b359bf5564457d764c794930.bindPopup(popup_5f966f28d28028b93f8a8beae8f06822)
+        ;
+
+        
+    
+    
+            var marker_42a8c376f7c1f0324306a80548c339e6 = L.marker(
+                [52.37702, 4.90352],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_5bbb4ccd28358b90a013dc990c097a2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97f4b7e2ab17746f6d7892f830935a46 = $(`<div id="html_97f4b7e2ab17746f6d7892f830935a46" style="width: 100.0%; height: 100.0%;">GASA-04 — CSriOosterdokskade</div>`)[0];
+                popup_5bbb4ccd28358b90a013dc990c097a2c.setContent(html_97f4b7e2ab17746f6d7892f830935a46);
+            
+        
+
+        marker_42a8c376f7c1f0324306a80548c339e6.bindPopup(popup_5bbb4ccd28358b90a013dc990c097a2c)
+        ;
+
+        
+    
+    
+            var marker_658c3f7f4a9481e561adce38dad83b28 = L.marker(
+                [52.38898, 4.91963],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_5c9fcab397e75199bce4e0819a742a2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_266577fbca04ec8ca16673bb589d620f = $(`<div id="html_266577fbca04ec8ca16673bb589d620f" style="width: 100.0%; height: 100.0%;">GASA-05-O — NoorderparkOost</div>`)[0];
+                popup_5c9fcab397e75199bce4e0819a742a2d.setContent(html_266577fbca04ec8ca16673bb589d620f);
+            
+        
+
+        marker_658c3f7f4a9481e561adce38dad83b28.bindPopup(popup_5c9fcab397e75199bce4e0819a742a2d)
+        ;
+
+        
+    
+    
+            var marker_350a1727bada1063a7bc20ed1c76b840 = L.marker(
+                [52.38926, 4.91893],
+                {
+}
+            ).addTo(marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54);
+        
+    
+        var popup_896ae573be4b03b3d60468d4fc85f4b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff820c6d14bad6db8959f2002b895d78 = $(`<div id="html_ff820c6d14bad6db8959f2002b895d78" style="width: 100.0%; height: 100.0%;">GASA-05-W — NoorderparkWest</div>`)[0];
+                popup_896ae573be4b03b3d60468d4fc85f4b4.setContent(html_ff820c6d14bad6db8959f2002b895d78);
+            
+        
+
+        marker_350a1727bada1063a7bc20ed1c76b840.bindPopup(popup_896ae573be4b03b3d60468d4fc85f4b4)
+        ;
+
+        
+    
+    
+            marker_cluster_e6640dd1d86e9d0448339fd1b3f54b54.addTo(map_b13aa6823dd7d2df99e089628dbba26b);
+        
+</script>
+</html>
